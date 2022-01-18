@@ -1,3 +1,5 @@
+/* 거스름돈 */
+
 package greedy;
 
 import java.util.Scanner;
