@@ -1,4 +1,4 @@
-/* 거스름돈 */
+// 거스름돈
 
 package greedy;
 
