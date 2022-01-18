@@ -8,14 +8,12 @@ public class GreedyPractice1 {
 		int[] coin = { 500, 100, 50, 10 };
 		int n = scan.nextInt();
 		int ans = 0;
-		int i = 0;
 		
-		while(i != coin.length) {
+		for(int i = 0; i < coin.length; i++) {
 			ans += n / coin[i];
 			n = n % coin[i];
-			i++;
 		}
-		
+
 		System.out.println(ans);
 	}
 }
