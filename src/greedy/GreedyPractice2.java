@@ -1,3 +1,5 @@
+/* 큰 수의 법칙 */
+
 package greedy;
 
 import java.util.Arrays;
