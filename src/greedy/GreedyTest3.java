@@ -15,8 +15,6 @@ public class GreedyTest3 {
 		else cnt1++;
 		
 		for(int i = 0; i < strSplit.length - 1; i++) {
-			
-			System.out.println(cnt0 + " " + cnt1);
 			if(!strSplit[i].equals(strSplit[i + 1])) {
 				if(strSplit[i + 1].equals("1")) cnt0++;
 				else cnt1++;
