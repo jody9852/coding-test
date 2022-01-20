@@ -14,8 +14,11 @@ public class GreedyTest2 {
 		
 		for(int i = 0; i < str.length; i++) {
 			num = Integer.valueOf(str[i]);
-			if(num != 0) {
+			if(num > 1 || rslt > 1) {
 				rslt *= num;
+			}
+			else {
+				rslt += num;
 			}
 		}
 		System.out.println();
